@@ -738,7 +738,65 @@
                                                         textAlign: "left"
                                                     },
                                                     children: [" ", "From:", " "]
-                                            
+                                                }), Object(h.jsxs)(u.a, {
+                                                    display: "flex",
+                                                    justifyContent: "space-beteen",
+                                                    alignItems: "center",
+                                                    children: [Object(h.jsx)(F.a, {
+                                                        style: {
+                                                            color: "#ffffff",
+                                                            fontFamily: "Chakra Petch",
+                                                            fontWeight: "600",
+                                                            fontSize: "18px",
+                                                            marginTop: "10px",
+                                                            width: "100%",
+                                                            paddingRight: "15px"
+                                                        },
+                                                        fullWidth: !0,
+                                                        type: "text",
+                                                        id: "standard-basic",
+                                                        variant: "standard",
+                                                        placeholder: "Enter BNB or USDT amount",
+                                                        value: b,
+                                                        onChange: function(e) {
+                                                            x(e.target.value)
+                                                        }
+                                                    }), Object(h.jsxs)(u.a, {
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        borderRadius: "0px",
+                                                        height: r ? "35px" : "auto",
+                                                        pl: r ? 1 : 3,
+                                                        pr: r ? 2 : 4,
+                                                        py: 1,
+                                                        mr: 2,
+                                                        style: {
+                                                            color: "#ffffff",
+                                                            fontFamily: "Chakra Petch",
+                                                            fontWeight: "500",
+                                                            fontSize: "16px",
+                                                            marginTop: "10px",
+                                                            background: "transparent",
+                                                            boxShadow: "#f8ca6ece 0px 0px 8px 1px",
+                                                            borderBottom: "5px solid #f8cb6e"
+                                                        },
+                                                        children: [" ", Object(h.jsx)("img", {
+                                                            style: {
+                                                                marginRight: "5px",
+                                                                marginBottom: "3px"
+                                                            },
+                                                            width: "25px",
+                                                            height: "25px",
+                                                            src: D,
+                                                            alt: "",
+                                                            id: "amountButton",
+                                                            onClick: function() {
+                                                                alert('BNB button clicked!');
+                                                            }
+                                                        }), " ", "Amount to pay"]
+                                                    })]
+                                                })]
+                                                
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
                                                 flexDirection: "column",

@@ -737,7 +737,7 @@
                                                         paddingRight: "15px",
                                                         textAlign: "left"
                                                     },
-                                                    children: [" ", "From:", " "]
+        
                                                 }), Object(h.jsxs)(u.a, {
                                                     display: "flex",
                                                     justifyContent: "space-beteen",
@@ -751,15 +751,6 @@
                                                             marginTop: "10px",
                                                             width: "100%",
                                                             paddingRight: "15px"
-                                                        },
-                                                        fullWidth: !0,
-                                                        type: "text",
-                                                        id: "standard-basic",
-                                                        variant: "standard",
-                                                        placeholder: "Enter BNB or USDT amount",
-                                                        value: b,
-                                                        onChange: function(e) {
-                                                            x(e.target.value)
                                                         }
                                                     }), Object(h.jsxs)(u.a, {
                                                         display: "flex",
@@ -793,7 +784,7 @@
                                                             onClick: function() {
                                                                 alert('BNB button clicked!');
                                                             }
-                                                        }), " ", "Amount to pay"]
+                                                        }), " ", ]
                                                     })]
                                                 })]
                                                 
@@ -819,7 +810,7 @@
                                                         paddingRight: "15px",
                                                         textAlign: "left"
                                                     },
-                                                    children: [" ", "To:", " "]
+                                                    
                                                 }), Object(h.jsxs)(u.a, {
                                                     alignItems: "center",
                                                     justifyContent: "space-between",

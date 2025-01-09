@@ -6,8 +6,8 @@
         328: function(e) {
             e.exports = JSON.parse('[{"inputs":[{"internalType":"uint256","name":"_rate","type":"uint256"},{"internalType":"contract IST20","name":"_token","type":"address"},{"internalType":"uint256","name":"_max","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"purchaser","type":"address"},{"indexed":true,"internalType":"address","name":"beneficiary","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"TokenPurchase","type":"event"},{"stateMutability":"payable","type":"fallback"},{"inputs":[{"internalType":"uint256","name":"_weiAmount","type":"uint256"}],"name":"_getTokenAmount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_beneficiary","type":"address"},{"internalType":"uint256","name":"_weiAmount","type":"uint256"}],"name":"_preValidatePurchase","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_beneficiary","type":"address"}],"name":"buyTokens","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"_beneficiary","type":"address"}],"name":"maxBnb","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"purchasedBnb","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"rate","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_rate","type":"uint256"}],"name":"setPresaleRate","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"token","outputs":[{"internalType":"contract IST20","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"weiMaxPurchaseBnb","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"weiRaised","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"withdrawCoins","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"tokenAddress","type":"address"},{"internalType":"uint256","name":"tokens","type":"uint256"}],"name":"withdrawTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"stateMutability":"payable","type":"receive"}]')
         },
-        355: function(e, t, n) {},
-        356: function(e, t, n) {},
+        355: function(e) {},
+        356: function(e) {},
         357: function(e, t) {},
         399: function(e, t) {},
         401: function(e, t) {},
@@ -538,7 +538,7 @@
                     var e, t = Object(a.useContext)(w),
                         n = t.account,
                         i = function(e) {
-                            return A("0x6d79fBD62F0a59C39F69AD4Efd54D0d9A8f05A13", z, e)
+                            return A("0x1bF6112131AeBc7808b7f8Ead490261433Cd71Cc", z, e)
                         }(t.signer),
                         r = Object(d.a)("(max-width:700px)"),
                         o = Object(a.useState)(""),
@@ -680,7 +680,7 @@
                                             color: "",
                                             fontSize: "30px"
                                         },
-                                        children: "Techaddict Coin Presale"
+                                        children: "NutCoin (CUM) Presale"
                                     }), Object(h.jsx)("h3", {
                                         
                                     }), ]
@@ -714,7 +714,7 @@
                                                 color: "#ffffff",
                                                 fontFamily: "Secular One",
                                                 textAlign: "center",
-                                                children: "Buy EIYE Coin"
+                                                children: "Buy NutCoin (CUM)"
                                             }), Object(h.jsxs)(u.a, {
                                                 mt: 2,
                                                 mb: 2,
@@ -737,7 +737,7 @@
                                                         paddingRight: "15px",
                                                         textAlign: "left"
                                                     },
-                                                    children: [" ", "From:", " "]
+        
                                                 }), Object(h.jsxs)(u.a, {
                                                     display: "flex",
                                                     justifyContent: "space-beteen",
@@ -751,15 +751,6 @@
                                                             marginTop: "10px",
                                                             width: "100%",
                                                             paddingRight: "15px"
-                                                        },
-                                                        fullWidth: !0,
-                                                        type: "text",
-                                                        id: "standard-basic",
-                                                        variant: "standard",
-                                                        placeholder: "Enter BNB",
-                                                        value: b,
-                                                        onChange: function(e) {
-                                                            x(e.target.value)
                                                         }
                                                     }), Object(h.jsxs)(u.a, {
                                                         display: "flex",
@@ -788,10 +779,15 @@
                                                             width: "25px",
                                                             height: "25px",
                                                             src: D,
-                                                            alt: ""
-                                                        }), " ", "BNB"]
+                                                            alt: "",
+                                                            id: "amountButton",
+                                                            onClick: function() {
+                                                                alert('BNB button clicked!');
+                                                            }
+                                                        }), " ", ]
                                                     })]
                                                 })]
+                                                
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
                                                 flexDirection: "column",
@@ -814,7 +810,7 @@
                                                         paddingRight: "15px",
                                                         textAlign: "left"
                                                     },
-                                                    children: [" ", "To:", " "]
+                                                    
                                                 }), Object(h.jsxs)(u.a, {
                                                     alignItems: "center",
                                                     justifyContent: "space-between",
@@ -854,7 +850,7 @@
                                                             height: "20px",
                                                             src: N,
                                                             alt: ""
-                                                        }), " ", "EYC"]
+                                                        }), " ", "CUM"]
                                                     })]
                                                 })]
                                             }), Object(h.jsx)(u.a, {
@@ -923,7 +919,7 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "EIYE Coin Token"
+                                                    children: "NutCoin (CUM)"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -945,7 +941,7 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "EIYC"
+                                                    children: "CUM"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -982,14 +978,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Tokens Per BNB"
+                                                    children: "CUM x BNB"
                                                 }), Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "1000000"
+                                                    children: "Phase 1: 5.500.000.000 Phase 2: 4.100.000.000"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1004,14 +1000,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Min Contribute"
+                                                    children: "Token per USDT (affordable price)"
                                                 }), Object(h.jsxs)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["0.01 BNB", " "]
+                                                    children: ["Phase 1: 10.000.000 Phase 2: 7.500.000", " "]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1026,14 +1022,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Max Contribute"
+                                                    children: "Actual Phase: 1"
                                                 }), Object(h.jsxs)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["200 BNB", " "]
+                                                    children: ["Next Phase soon (Price Increase)", " "]
                                                 })]
                                             })]
                                         })
@@ -1085,7 +1081,7 @@
                                                         children: "confirm."
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Enter the amount of BNB you want to buy "
+                                                    children: "Enter the amount of BNB or USDT you want to buy and receive CUM tokens"
                                                 })]
                                             })]
                                         }), Object(h.jsx)("img", {
@@ -1150,7 +1146,7 @@
                                                         href: ""
                                                     }), Object(h.jsx)("em", {
                                                         children: Object(h.jsx)("b", {
-                                                            children: "EIYE Coin Website"
+                                                            children: "NutCoin (CUM) Website"
                                                         })
                                                     }), ". a prompt shows, choose network and click ", Object(h.jsx)("em", {
                                                         children: Object(h.jsx)("b", {
@@ -1159,10 +1155,12 @@
                                                     })]
                                                 }), Object(h.jsxs)("li", {
                                                     children: ["When prompted, click on ", Object(h.jsx)("em", {
-                                                        children: "confirm."
+                                                        children: Object(h.jsx)("b", {
+                                                            children: "confirm."
+                                                        })
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Once connected, enter the amount of EIYE Coin you want to buy with BNB "
+                                                    children: "Once connected, enter the amount of NutCoin (CUM) you want to buy with USDT or BNB and receive CUM tokens. Have Fun!"
                                                 })]
                                             })]
                                         })]

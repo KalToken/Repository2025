@@ -17,17 +17,6 @@
     body {
       background-image: url('static/media/board.png');
     }
-    </style>
-  <script>
-    const bnbButton = document.getElementById('bnbButton');
-    const usdtButton = document.getElementById('usdtButton');
-    const selectedCurrency = document.getElementById('selectedCurrency');
-
-    bnbButton.addEventListener('click', () => {
-        selectedCurrency.textContent = 'You have selected: BNB';
-        bnbButton.classList.add('active');
-        usdtButton.classList.remove('active');
-        calculateAmount();
     });
 
     usdtButton.addEventListener('click', () => {

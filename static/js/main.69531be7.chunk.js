@@ -791,9 +791,9 @@
                                                             alt: "",
                                                             id: "amountButton",
                                                             onClick: function() {
-                                                                alert('BNB button clicked!');
+                                                                alert('you can buy using BNB');
                                                             }
-                                                        }), " ", "FROM"]
+                                                        }), " ", "BNB"]
                                                     })]
                                                 })]
                                                 

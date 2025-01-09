@@ -181,3 +181,7 @@ p {
 /*================================
   Navbar Style End
 ================================*/
+#selectedCurrency {
+    margin-top: 10px; /* Adjust spacing as needed */
+    /* Other styles can be added here */
+}

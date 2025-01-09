@@ -737,7 +737,7 @@
                                                         paddingRight: "15px",
                                                         textAlign: "left"
                                                     },
-        
+                                                    children: [" ", "From:", " "]
                                                 }), Object(h.jsxs)(u.a, {
                                                     display: "flex",
                                                     justifyContent: "space-beteen",
@@ -751,6 +751,15 @@
                                                             marginTop: "10px",
                                                             width: "100%",
                                                             paddingRight: "15px"
+                                                        },
+                                                        fullWidth: !0,
+                                                        type: "text",
+                                                        id: "standard-basic",
+                                                        variant: "standard",
+                                                        placeholder: "Enter BNB or USDT",
+                                                        value: b,
+                                                        onChange: function(e) {
+                                                            x(e.target.value)
                                                         }
                                                     }), Object(h.jsxs)(u.a, {
                                                         display: "flex",
@@ -784,9 +793,10 @@
                                                             onClick: function() {
                                                                 alert('BNB button clicked!');
                                                             }
-                                                        }), " ", ]
+                                                        }), " ", "FROM"]
                                                     })]
                                                 })]
+                                                
                                                 
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -810,7 +820,7 @@
                                                         paddingRight: "15px",
                                                         textAlign: "left"
                                                     },
-                                                    
+                                                    children: [" ", "To:", " "]
                                                 }), Object(h.jsxs)(u.a, {
                                                     alignItems: "center",
                                                     justifyContent: "space-between",
@@ -978,14 +988,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "CUM x BNB"
+                                                    children: "Price"
                                                 }), Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Phase 1: 5.500.000.000 Phase 2: 4.100.000.000"
+                                                    children: "Phase 1: 1BNB = 5.500.000.000 CUM  Phase 2: 1BNB = 4.100.000.000 CUM"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1000,7 +1010,7 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Token per USDT (affordable price)"
+                                                    children: "Price per USDT (affordable price)"
                                                 }), Object(h.jsxs)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",

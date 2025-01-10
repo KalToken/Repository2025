@@ -1032,14 +1032,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Warning:"
+                                                    children: ""
                                                 }), Object(h.jsxs)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["Your CUM token will arrive in your wallet within 24/72 hours.", " "]
+                                                    children: ["Your CUM token will be automatically delivered in your wallet within 24/72 hours.", " "]
                                                 })]
                                             })]
                                         })

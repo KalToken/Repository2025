@@ -680,7 +680,7 @@
                                             color: "",
                                             fontSize: "30px"
                                         },
-                                        children: "NutCoin (CUM) Presale"
+                                        children: "NutCoin (CUM) Official Presale 2025"
                                     }), Object(h.jsx)("h3", {
                                         
                                     }), ]

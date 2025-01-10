@@ -1084,14 +1084,14 @@
                                                     })]
                                                 }), Object(h.jsxs)("li", {
                                                     children: ["Choose the wallet where you have your BNB funds, ", Object(h.jsx)("em", {
-                                                        children: "Metamask or WalletConnect"
+                                                        children: "Metamask or WalletConnect (if you encounter problems with Metamask connection, access our site from the Metamask App integrated browser)"
                                                     })]
                                                 }), Object(h.jsxs)("li", {
                                                     children: ["When prompted, click on ", Object(h.jsx)("em", {
                                                         children: "confirm."
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Enter the amount of BNB or USDT you want to buy and receive CUM tokens"
+                                                    children: "Enter the amount of BNB or USDT you want to buy and wait to receive your CUM tokens (Token will be automatically visible on your wallet in 24/72 hour. IF NOT DISPLAYED, Log in to your metamask wallet and click on 'import' and 'custom token' then enter the contract address '0x6d79fBD62F0a59C39F69AD4Efd54D0d9A8f05A13' and Import. Now you will have your CUM token!"
                                                 })]
                                             })]
                                         }), Object(h.jsx)("img", {

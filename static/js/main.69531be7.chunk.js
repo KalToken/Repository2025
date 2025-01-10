@@ -566,7 +566,7 @@
                                     for (;;) switch (e.prev = e.next) {
                                         case 0:
                                             try {
-                                                O(t = 10000000 * +b), console.log(t, "tokenReceive")
+                                                O(t = 5500000000 * +b), console.log(t, "tokenReceive")
                                             } catch (n) {}
                                         case 1:
                                         case "end":
@@ -877,7 +877,7 @@
                                                         onClick: function() {
                                                             return V()
                                                         },
-                                                        children: "Buy"
+                                                        children: "Accept ToS & Buy"
                                                     })
                                                 })
                                             })]
@@ -988,14 +988,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Price"
+                                                    children: "Price:"
                                                 }), Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Phase 1: 1BNB = 5.500.000.000 CUM  Phase 2: 1BNB = 4.100.000.000 CUM"
+                                                    children: "1 BNB = 5.500.000.000 CUM"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1010,14 +1010,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Price per USDT (affordable price)"
+                                                    children: "Value in $"
                                                 }), Object(h.jsxs)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["Phase 1: 10.000.000 Phase 2: 7.500.000", " "]
+                                                    children: ["$0.00000011818 approx.", " "]
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
@@ -1032,14 +1032,14 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "Actual Phase: 1"
+                                                    children: "Warning:"
                                                 }), Object(h.jsxs)(u.a, {
                                                     fontWeight: "600",
                                                     borderRadius: "8px",
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: ["Next Phase soon (Price Increase)", " "]
+                                                    children: ["Your CUM token will arrive in your wallet within 24/72 hours.", " "]
                                                 })]
                                             })]
                                         })

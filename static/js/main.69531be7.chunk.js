@@ -1091,7 +1091,7 @@
                                                         children: "confirm."
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Enter the amount of BNB or USDT you want to buy and wait to receive your CUM tokens (Token will be automatically visible on your wallet in 24/72 hour. IF NOT DISPLAYED, Log in to your metamask wallet and click on 'import' and 'custom token' then enter the contract address '0x6d79fBD62F0a59C39F69AD4Efd54D0d9A8f05A13' and Import. Now you will have your CUM token!"
+                                                    children: "Enter the amount of BNB or USDT you want to buy and wait to receive your CUM tokens. Token will be automatically visible on your wallet in 24/72 hour. IF NOT DISPLAYED, Log in to your metamask wallet and click on 'import' and 'custom token' then enter the contract address '0x6d79fBD62F0a59C39F69AD4Efd54D0d9A8f05A13' and Import. Now you will have your CUM token!"
                                                 })]
                                             })]
                                         }), Object(h.jsx)("img", {
@@ -1170,7 +1170,7 @@
                                                         })
                                                     })]
                                                 }), Object(h.jsx)("li", {
-                                                    children: "Once connected, enter the amount of NutCoin (CUM) you want to buy with USDT or BNB and receive CUM tokens. Have Fun!"
+                                                    children: "Once connected, enter the amount of NutCoin (CUM) you want to buy with BNB and receive CUM tokens. Have Fun!"
                                                 })]
                                             })]
                                         })]
